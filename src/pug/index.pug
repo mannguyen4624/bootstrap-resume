@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Resume - Start Bootstrap Theme
+        title Resume - Man Nguyen
 
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
 
@@ -27,9 +27,9 @@ html(lang='en')
         // Navigation
         nav#sideNav.navbar.navbar-expand-lg.navbar-dark.bg-primary.fixed-top
             a.navbar-brand.js-scroll-trigger(href='#page-top')
-                span.d-block.d-lg-none Clarence Taylor
+                span.d-block.d-lg-none Man Nguyen
                 span.d-none.d-lg-block
-                    img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
+                    //- img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2(src='assets/img/profile.jpg', alt='...')
             button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarResponsive.collapse.navbar-collapse
@@ -39,13 +39,11 @@ html(lang='en')
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#experience') Experience
                     li.nav-item
+                        a.nav-link.js-scroll-trigger(href='#projects') Projects
+                    li.nav-item
                         a.nav-link.js-scroll-trigger(href='#education') Education
                     li.nav-item
                         a.nav-link.js-scroll-trigger(href='#skills') Skills
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#interests') Interests
-                    li.nav-item
-                        a.nav-link.js-scroll-trigger(href='#awards') Awards
 
         // Page Content
         .container-fluid.p-0
@@ -54,22 +52,18 @@ html(lang='en')
             section#about.resume-section
                 .resume-section-content
                     h1.mb-0
-                        | Clarence 
-                        span.text-primary Taylor
+                        | Man
+                        span.text-primary Nguyen
                     .subheading.mb-5
-                        | 3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 · 
-                        a(href='mailto:name@email.com') name@email.com
+                        | Revere, MA 02151 · 
+                        a(href='mailto:nguyen.man@northeastern.edu') nguyen.man@northeastern.edu
                     p.lead.mb-5
-                        | I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.
+                        | With a keen eye for efficiency and quality, I excel in software development by innovating automation solutions within an agile framework, optimizing processes, enhancing R&D quality control, and delivering user-friendly interfaces for database websites.
                     .social-icons
-                        a.social-icon(href='#!')
+                        a.social-icon(href='https://www.linkedin.com/in/mannguyen4624/' target='_blank' rel='noopener noreferrer')
                             i.fab.fa-linkedin-in
-                        a.social-icon(href='#!')
+                        a.social-icon(href='https://github.com/mannguyen4624' target='_blank' rel='noopener noreferrer')
                             i.fab.fa-github
-                        a.social-icon(href='#!')
-                            i.fab.fa-twitter
-                        a.social-icon(href='#!')
-                            i.fab.fa-facebook-f
 
             hr.m-0
 
@@ -80,39 +74,44 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Senior Web Developer
-                            .subheading.mb-3 Intelitec Solutions
+                            h3.mb-0 Software Engineer
+                            .subheading.mb-3 Chewy
                             p
-                                | Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+                                | By strategically implementing search engine optimizations (SEO) using Kotlin, I significantly bolstered Chewy's online visibility and presence across various search engines. This proactive approach not only improved the ranking of Chewy's web pages but also enhanced their accessibility and relevance to target audiences, thereby driving increased organic traffic and fostering greater engagement with the brand's offerings.
                         .flex-shrink-0
-                            span.text-primary March 2013 - Present
+                            span.text-primary Jul 2021 - Apr 2022
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Web Developer
-                            .subheading.mb-3 Intelitec Solutions
+                            h3.mb-0 Software Engineer Intern
+                            .subheading.mb-3 PhAST
                             p
-                                | Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
+                                | Collaborated on the development of proprietary software designed to facilitate the seamless collection, organization, and management of data for researchers. This involved actively contributing to the design, implementation, and refinement of features aimed at optimizing data acquisition, storage, and retrieval processes, ultimately empowering researchers with efficient tools to advance their projects and scientific endeavors.
                         .flex-shrink-0
-                            span.text-primary December 2011 - March 2013
+                            span.text-primary Jul 2020 - Dec 2020
+
+            hr.m-0
+            
+            // Projects
+            section#projects.resume-section
+                .resume-section-content
+                    h2.mb-5 Projects
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 Junior Web Designer
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.
+                            h3.mb-0 Calculator
+                            .subheading.mb-3 HTML, CSS, JavaScript 
+                            p Developed a calculator utility in order to enhance proficiency in front-end development methodologies.
                         .flex-shrink-0
-                            span.text-primary July 2010 - December 2011
+                            a(href='https://github.com/mannguyen4624/Calculator' target='_blank' rel="noopener noreferrer") Repository
 
                     .d-flex.flex-column.flex-md-row.justify-content-between
                         .flex-grow-1
-                            h3.mb-0 Web Design Intern
-                            .subheading.mb-3 Shout! Media Productions
-                            p
-                                | Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+                            h3.mb-0 Did You Take the Vaccine? Website 
+                            .subheading.mb-3 HTML, CSS, JavaScript
+                            p Engineered a web application with functionality to prompt users regarding their COVID-19 vaccination status, facilitating data storage within a structured database. Employed cookie mechanisms to discern and exclude recurring visitors from the tallying process.
                         .flex-shrink-0
-                            span.text-primary September 2008 - June 2010
+                            a(href='https://github.com/mannguyen4624/covidvaccine' target='_blank' rel="noopener noreferrer") Repository
 
             hr.m-0
 
@@ -123,20 +122,18 @@ html(lang='en')
 
                     .d-flex.flex-column.flex-md-row.justify-content-between.mb-5
                         .flex-grow-1
-                            h3.mb-0 University of Colorado Boulder
+                            h3.mb-0 Northeastern University
                             .subheading.mb-3 Bachelor of Science
-                            div Computer Science - Web Development Track
-                            p GPA: 3.23
+                            div Computer Science and Information Science
                         .flex-shrink-0
-                            span.text-primary August 2006 - May 2010
+                            span.text-primary Sep 2017 - May 2021
 
                     .d-flex.flex-column.flex-md-row.justify-content-between
                         .flex-grow-1
-                            h3.mb-0 James Buchanan High School
-                            .subheading.mb-3 Technology Magnet Program
-                            p GPA: 3.56
+                            h3.mb-0 Revere High School 
+                            div Robotics Club Member, eSports Club Founder
                         .flex-shrink-0
-                            span.text-primary August 2002 - May 2006
+                            span.text-primary Sep 2013 - May 2017
 
             hr.m-0
 
@@ -153,21 +150,9 @@ html(lang='en')
                         li.list-inline-item
                             i.fab.fa-js-square
                         li.list-inline-item
-                            i.fab.fa-angular
-                        li.list-inline-item
                             i.fab.fa-react
                         li.list-inline-item
                             i.fab.fa-node-js
-                        li.list-inline-item
-                            i.fab.fa-sass
-                        li.list-inline-item
-                            i.fab.fa-less
-                        li.list-inline-item
-                            i.fab.fa-wordpress
-                        li.list-inline-item
-                            i.fab.fa-gulp
-                        li.list-inline-item
-                            i.fab.fa-grunt
                         li.list-inline-item
                             i.fab.fa-npm
                     .subheading.mb-3 Workflow
@@ -188,17 +173,6 @@ html(lang='en')
                             span.fa-li
                                 i.fas.fa-check
                             | Agile Development & Scrum
-
-            hr.m-0
-
-            // Interests
-            section#interests.resume-section
-                .resume-section-content
-                    h2.mb-5 Interests
-                    p
-                        | Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
-                    p.mb-0
-                        | When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
 
             hr.m-0
 
